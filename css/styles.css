@@ -39,12 +39,18 @@ address{
     margin-top: 19px;
 }
 
+/*------------------------------------------------------------*/
+
+
 .table .thead-dark th{
     color:floralwhite;
     background-color:#6E3F19;
 }
 
-tr:hover {background-color:#dbb08db0!important}
+#about-table tr:hover {background-color:#dbb08db0!important}
+
+
+/*------------------------------------------------------------*/
 
 .tab-content {
     border-left: 1px solid #ddd;
@@ -71,3 +77,52 @@ tr:hover {background-color:#dbb08db0!important}
     position: absolute;
     bottom: 0px;
 }
+
+/*-------------- TABLE ROW COLOURS --------------------*/
+
+.color-1 {
+    background-color: lemonchiffon;
+}
+
+.color-2 {
+    background-color: rgba(119, 18, 18, 0.644);
+}
+
+.color-3 {
+    background-color:lightyellow;
+}
+
+.color-4 {
+    background-color: rgb(199, 70, 70);
+}
+
+.color-5 {
+    background-color: rgb(204, 72, 32);
+}
+
+.color-6 {
+    background-color: rgb(135, 240, 65);
+}
+
+.color-7 {
+    background-color: rgb(244, 247, 94);
+}
+
+#table-menu td {
+    border-top-color: black;
+    border-bottom-color: black;
+}
+
+#table-menu {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#table-menu {
+    border: 6px solid rgba(235, 160, 160, 0.87);
+}
+
+tr td:first-child, tr th:first-child {
+    border-right: 1px solid;
+}
+
